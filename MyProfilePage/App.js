@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, Image, ScrollView, TextInput, StyleSheet } from 'react-native';
-import styles from './styles'; // Importing styles from styles.js
+import styles from './styles'; 
 
 export default function App() {
   return (
@@ -9,7 +9,7 @@ export default function App() {
         <Text style={styles.headerText}>- Diego Cano -</Text>
       </View>
       <Image
-        source={require('./assets/profileImage.jpg')} // Make sure the image is in the correct directory
+        source={require('./assets/profileImage.jpg')}
         style={styles.profileImage}
       />
       <ScrollView style={styles.infoSection}>
